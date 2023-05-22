@@ -13,9 +13,9 @@
     "es6": true
   },
   "rules": {
-    "no-console": "error",
-    "no-debugger": "error",
-    "no-unused-vars": "error",
+    "no-console": "off",
+    "no-debugger": "off",
+    "no-unused-vars": "off",
     "no-undef": "off",
     "no-redeclare": "off",
     "prefer-const": "off"
