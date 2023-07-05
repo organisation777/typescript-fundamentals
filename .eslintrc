@@ -1,6 +1,6 @@
 {
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint","eslint-plugin","internal-rules"],
+  "plugins": ["@typescript-eslint"],
   "extends": ["eslint:recommended"],
   "parserOptions": {
     "ecmaVersion": 9,
@@ -18,7 +18,6 @@
     "no-unused-vars": "error",
     "no-undef": "off",
     "no-redeclare": "off",
-    "prefer-const": "off",
-     "internal-rules/multiline-comment-style": "error"
+    "prefer-const": "off"
   }
 }
